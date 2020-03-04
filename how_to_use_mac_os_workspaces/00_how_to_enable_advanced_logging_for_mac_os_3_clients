@@ -1,0 +1,7 @@
+macOS
+# close WorkSpaces client
+# Terminal
+open -a workspaces --args -l3
+
+# View logs
+cat ~/.local/share/Amazon Web Services/Amazon Workspaces/logs

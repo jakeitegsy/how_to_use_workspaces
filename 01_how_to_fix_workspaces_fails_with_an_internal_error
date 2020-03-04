@@ -1,0 +1,6 @@
+Amazon VPC
+- Subnet
+  - Subnet Actions
+    - Modify auto-assign IP settings
+      - Disable
+# Specify IPv6 addresses manually when you launch instances if need be

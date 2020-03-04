@@ -1,0 +1,15 @@
+# how to connect to Workspaces client using RDP
+- Amazon WorkSpaces console
+  - select Workspace
+    - copy $WORKSPACE_IP
+
+- EC2
+  - Network Interfaces
+    - Type $WORKSPACE_IP
+      - copy $PUBLIC_IP
+      - Security Groups
+        - Inbound > Edit
+          - Add Rule
+            - Type > RDP Protocol > TCP Range > 3389 Source > $MY_IP
+            Save
+            

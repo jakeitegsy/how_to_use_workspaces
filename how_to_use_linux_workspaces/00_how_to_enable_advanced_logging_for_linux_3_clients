@@ -1,0 +1,7 @@
+linux
+# close WorkSpaces client
+# Terminal
+/opt/workspacesclient/workspacesclient -l3
+
+# View logs
+cat /opt/workspacesclient/workspacesclient -l3
